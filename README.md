@@ -16,6 +16,10 @@ Change 251st line ```git clone https://USER:PASSWORD@github.com/USER/REPO.git ``
 Change 261st line ```cd /usr/share/nginx/LARAVEL_FOLDER``` with your laravel folder
 Change 302nd and 303rd  lines with your laravel folder
 
+### Warning
+
+After running script you **must** run ```sudo mysql_secure_installation``` to complete mariaDB installation.
+
 ### Contribution
 
 Feel free to fork this repo.
