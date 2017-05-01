@@ -9,12 +9,15 @@ This bash script only works with Centos and simply it will install some dependen
 Clone this repo to your root folder edit with your favorite text editor
 
 Change 154th line ``` server_name  SERVER_IP;``` with your server IP address
+
 Change 155th line  ```root   /usr/share/nginx/LARAVEL_FOLDER/public; ``` with your laravel folder name
 
 Change 230th line ``` sed -i '13 c\alias ALIAS="cd /usr/share/nginx/LARAVEL_FOLDER"' .bash_profile ```with your alias and laravel folder this setting lets you to access in your terminal by typing your alias just for ease.
 
 Change 251st line ```git clone https://USER:PASSWORD@github.com/USER/REPO.git ``` with your github critentials 
+
 Change 261st line ```cd /usr/share/nginx/LARAVEL_FOLDER``` with your laravel folder
+
 Change 302nd and 303rd  lines with your laravel folder
 
 ### Warning
